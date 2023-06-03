@@ -1,5 +1,6 @@
 import Data
 import TradingBot
+import TestnetTradingBot
 import asyncio
 
 if __name__ == '__main__':
