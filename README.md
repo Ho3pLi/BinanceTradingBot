@@ -36,10 +36,6 @@ The bot comes with a set of default strategies and indicators, but you can custo
 
 It's crucial to have a good understanding of trading concepts, technical analysis, and risk management principles before using this bot. Be responsible and test your strategies thoroughly in a simulated environment before risking real funds.
 
-## Contributing
-
-Contributions to the Binance Trading Bot project are highly appreciated! If you have any bug fixes, enhancements, or new features to propose, please follow the guidelines outlined in the [CONTRIBUTING](CONTRIBUTING.md) file.
-
 ## License
 
 This project is licensed under the [GPLv3 License](LICENSE).
