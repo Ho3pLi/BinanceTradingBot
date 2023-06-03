@@ -14,3 +14,5 @@ symbol = 'BTCUSDT'
 engine = sqlalchemy.create_engine('sqlite:///'+symbol+'stream.db')
 df = pd.read_sql(symbol, engine)
 print(df)
+
+# Define here your strategy
