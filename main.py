@@ -1,6 +1,7 @@
-import restBot
+import Data
+import TradingBot
 import asyncio
 
 if __name__ == '__main__':
     loop = asyncio.get_event_loop()
-    loop.run_until_complete(restBot.getData())
+    loop.run_until_complete(Data.getData())
