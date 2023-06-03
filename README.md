@@ -1,41 +1,74 @@
-# Binance Trading Bot
 
-Welcome to the Binance Trading Bot project! This open-source Python bot aims to automate trading decisions on the Binance cryptocurrency exchange. Whether you're a beginner or an experienced trader, this bot can assist you in executing trading strategies, analyzing market data, and managing your trades efficiently.
+# Are you good at RL or not?
 
-## Table of Contents
+**Italian**
 
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+Il bot utilizza l'API ufficiale di Binance per connettersi alla piattaforma e ottenere dati in tempo reale sulle criptovalute, inclusi i prezzi, i volumi di scambio e altri indicatori di mercato. Questi dati vengono analizzati dal bot utilizzando una serie di algoritmi e strategie di trading predefinite, al fine di identificare opportunità di acquisto o vendita.
 
-## Features
+Una volta che il bot ha individuato un'opportunità di trading, può eseguire automaticamente l'ordine sulla piattaforma Binance. Il progetto offre diverse funzionalità personalizzabili, tra cui la scelta delle strategie di trading, la gestione del rischio e dei segnali di trading.
 
-- **Market Data Analysis**: Utilize various indicators and algorithms to analyze market data, identify trends, and make informed trading decisions.
-- **Automated Trading**: Implement trading strategies to automatically execute buy/sell orders based on predefined conditions.
-- **Risk Management**: Implement risk management techniques to control losses and protect your investments.
-- **Backtesting**: Test your trading strategies on historical market data to evaluate their performance and fine-tune them.
-- **Extensibility**: Leverage the modular structure of the bot to add your own custom indicators, strategies, or functionalities.
+Il codice sorgente del bot è scritto in Python e offre un'interfaccia semplice e intuitiva per la configurazione e l'esecuzione. È possibile personalizzare facilmente le impostazioni del bot per adattarlo alle proprie esigenze di trading e ai mercati specifici che si desidera monitorare.
 
-## Installation
+È importante notare che il trading di criptovalute comporta rischi significativi e che l'utilizzo di un bot di trading automatizzato non garantisce profitti. È fondamentale comprendere le dinamiche del mercato delle criptovalute e adottare una strategia di gestione del rischio adeguata prima di utilizzare qualsiasi bot di trading.
 
-To get started with the Binance Trading Bot, follow these steps:
+**English**
 
-1. Clone this repository:
-```git clone https://github.com/Ho3pLi/BinanceTradingBot.git```
+The bot uses the official Binance API to connect to the platform and obtain real-time data on cryptocurrencies, including prices, trading volumes, and other market indicators. These data are analyzed by the bot using a series of predefined trading algorithms and strategies to identify buying or selling opportunities.
 
-2. Run the bot:
-```python main.py```
+Once the bot has identified a trading opportunity, it can automatically execute the order on the Binance platform. The project offers various customizable features, including the choice of trading strategies, risk management, and trading signals.
 
-3. Sit back, relax, and let the bot do the trading for you!
+The bot's source code is written in Python and provides a simple and intuitive interface for configuration and execution. It is easy to customize the bot's settings to adapt it to your trading needs and specific markets you want to monitor.
 
-## Usage
+It is important to note that cryptocurrency trading carries significant risks, and the use of an automated trading bot does not guarantee profits. It is crucial to understand the dynamics of the cryptocurrency market and adopt an appropriate risk management strategy before using any trading bot.
 
-The bot comes with a set of default strategies and indicators, but you can customize them or even create your own.
 
-It's crucial to have a good understanding of trading concepts, technical analysis, and risk management principles before using this bot. Be responsible and test your strategies thoroughly in a simulated environment before risking real funds.
+
+
+## Badges
+
+
+[![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
+
+![GitHub last commit](https://img.shields.io/github/last-commit/Ho3pLi/BinanceTradingBot)
+
+![GitHub repo size](https://img.shields.io/github/repo-size/Ho3pLi/BinanceTradingBot)
+## Requirements
+
+- Binance Account
+
+- API Key
+
+- Python 3.x
+
+- Dependencies and Libraries
+
+    - Binance API Python
+    - Pandas
+    - Python-dotenv
+    - Nest_asyncio
+    - Sqlalchemy
+## Installation & Usage
+
+**Italian**
+
+Per usare il modello, lanciare il file 'main.py' e inserire in un file '.env' le api necessarie.
+
+Nota: il file 'main.py' riceve solo dati da Binance, per lanciare i bot bisogna inserire la propria strategia ed avviarlo separatemente.
+
+**English**
+
+To use the model, run the 'main.py' file and enter the necessary APIs in a '.env' file.
+
+Note: The 'main.py' file only receives data from Binance. To launch the bots, you need to input your own strategy and start it separately.
+## Support
+
+For support, email daniele.barile.lavoro@gmail.com or just open an issue.
+
 
 ## License
 
-This project is licensed under the [GPLv3 License](LICENSE).
+[GPL v3](https://choosealicense.com/licenses/gpl-3.0/)
+
+## Authors
+
+- [@Ho3pLi](https://www.github.com/Ho3pLi)
